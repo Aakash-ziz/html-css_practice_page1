@@ -1,0 +1,32 @@
+.nav_container{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 220px;
+    min-height: 80px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+.logo-a a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600; 
+}
+.logo-a{
+    display: flex;
+    gap: 55px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+hr{
+    margin-top: 8px;
+    border-top: 2px dotted ;
+}
