@@ -1,0 +1,26 @@
+.hero-container{
+    width: 98%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1f 1fr;
+    gap: 28px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.hero-container div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.div1{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.img1{
+    height: 100%;
+    object-fit:cover;
+}
